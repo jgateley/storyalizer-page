@@ -32,9 +32,24 @@ export default function Home() {
         </p>
       </div>
 
+      {/* Description Section */}
+      <div className="flex-1 flex items-center justify-center px-4">
+        <p className="text-base md:text-lg lg:text-xl text-gray-600 dark:text-gray-400 text-center max-w-3xl">
+          storyalizer is your tool for formatting manuscripts to prepare them for uploading to storyalíz. It will help you format and break your story into bite-sized pieces.
+          Unless you have a relationship with storyalíz, you do not need this tool.
+        </p>
+      </div>
+
       {/* Social Section */}
       <div className="flex-1 flex flex-col items-center justify-center gap-6 md:gap-8 w-full max-w-5xl px-4">
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 text-base md:text-xl lg:text-2xl">
+          <Link 
+            href="/instructions" 
+            className="text-gray-700 dark:text-gray-300 hover:text-[#B63E32] transition-colors underline"
+          >
+            Instructions
+          </Link>
+          <span className="text-gray-400">•</span>
           <Link 
             href="/privacy" 
             className="text-gray-700 dark:text-gray-300 hover:text-[#B63E32] transition-colors underline"

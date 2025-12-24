@@ -23,7 +23,6 @@ export default function PrivacyPage() {
 
         <div className="prose prose-lg max-w-none">
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-[#B63E32] mb-4">1. Introduction</h2>
             <p className="text-gray-700 mb-4">
               Welcome to storyalizer ("we," "our," or "us"). storyalizer provides author tools for uploading content to{" "}
               <a href="https://storyaliz.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">

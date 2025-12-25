@@ -70,6 +70,13 @@ export default function Home() {
           >
             Terms
           </Link>
+          <span className="text-gray-400">•</span>
+          <Link 
+            href="/opt-out" 
+            className="text-gray-700 dark:text-gray-300 hover:text-[#B63E32] transition-colors underline"
+          >
+            Opt-out
+          </Link>
         </div>
 
         {/* Social Media Links */}
